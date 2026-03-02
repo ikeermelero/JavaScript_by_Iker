@@ -125,3 +125,8 @@ edad = 26; // ✔️ permitido
 
 console.log("Edad actual:", edad);
 console.log("Año de nacimiento:", añoNacimiento);
+
+
+let puntos = "10";
+let mensaje = number(puntos);
+console.log("Mensaje:", mensaje); // NaN (Not a Number)
