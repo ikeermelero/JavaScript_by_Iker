@@ -19,7 +19,6 @@ Tipos principales:
 
 let textoUno = "11";
 let booleanoUno = false;
-
 let numeroIker = 11;
 let numeroRichi = 22;
 let numeroGorka = 33;

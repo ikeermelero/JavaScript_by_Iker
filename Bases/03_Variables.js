@@ -8,20 +8,30 @@ Estos datos pueden cambiar durante la ejecución del programa
 (según cómo declaremos la variable).
 
 Pueden almacenar:
-- Números
-- Strings (texto)
-- Booleanos
-- Objetos
-- Arrays
-- Funciones
+- Números             let edad = 24;
+- Strings (texto)     let nombre = "Iker";
+- Booleanos           let esProgramador = true;
+- Objetos             let persona = { nombre: "Iker", edad: 24 };
+- Arrays              let colores = ["rojo", "verde", "azul"];
+- Funciones           function saludar() { console.log("Hola"); }
 - etc.
 */
 
 
 /*
 ========================================
-🟡 var (Forma antigua - NO recomendada hoy)
+📦 DECLARACIÓN DE VARIABLES
 ========================================
+
+Declarar una variable significa crearla y asignarle un nombre.
+En JavaScript, existen tres formas principales de declarar variables:
+1. var   → Forma antigua (NO recomendada hoy)
+2. let   → Variable reutilizable
+3. const → Constante (valor fijo)
+
+-------------------------------------------
+🟡 var (Forma antigua - NO recomendada hoy)
+-------------------------------------------
 
 - Tiene alcance de función (function scope).
 - Permite redeclarar la misma variable.
@@ -37,9 +47,9 @@ console.log(ejemploVar);
 
 
 /*
-========================================
+-------------------------------------------
 🟢 let (Variable reutilizable)
-========================================
+-------------------------------------------
 
 - Tiene alcance de bloque (block scope).
 - Se puede reasignar.
@@ -64,9 +74,9 @@ console.log("El tipo de dato de esProgramador es:", typeof esProgramador);
 
 
 /*
-========================================
+-------------------------------------------
 🔵 const (Constante)
-========================================
+-------------------------------------------
 
 - Tiene alcance de bloque.
 - NO se puede reasignar.
